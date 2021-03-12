@@ -11,7 +11,7 @@ public class MainController {
 	
 	private Logger log = Logger.getLogger(this.getClass());
 	
-	@ResponseBody
+	
 	@RequestMapping(value="index")
 	public String Index() throws Exception {
 		log.info(this.getClass());

@@ -6,7 +6,8 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 <title>길찾기 결과 지도에 표출하기</title>
-<link>
+<!-- 기본 세팅 -->
+	<script type="text/javascript" src="/resources/js/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 	<div class="search" style="">
@@ -16,14 +17,17 @@
 	</div>
 	
 	<div id="map" style="width: 100%; height: 400px;"></div>
+	
 	<!-- Naver Developers에서 발급받은 네이버지도 Application Key 입력  -->
 	<script type="text/javascript"
 		src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=7dc89ogh13"></script>
-	<script type="text/javascript"
-		src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=7dc89ogh13&submodules=geocoder"></script>
+		
+	<!-- <script type="text/javascript"
+		src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=7dc89ogh13&submodules=geocoder"></script>  -->
+	
 	<script type="text/javascript" src="/resources/js/Address.js"></script>
-	<script type="text/javascript" src="/resources/js/jquery-3.6.0.min.js"></script>
-	<!-- <script type="text/javascript" src="/resources/js/ODsayAPI.js"></script>  -->
+	
+	<script type="text/javascript" src="/resources/js/ODsayAPI.js"></script>
 
 </body>
 </html>
