@@ -1,10 +1,6 @@
- 	//default
-	var mapOptions = {
-		center: new naver.maps.LatLng(37.3595704, 127.105399),
-		zoom: 10
-	};
+
 	//맵을 열겠다 mapOptions으로 위경도 값이 업으면 mapOptions 상의 위경도로 나옴
-	var map = new naver.maps.Map('map', mapOptions);
+	var map = new kakao.maps.Map('map', mapOptions);
 	
 	var sx = 126.93737555322481; //뒤
 	var sy = 37.55525165729346; //앞
